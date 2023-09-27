@@ -1538,7 +1538,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "owner_hun":
         buttons = [[
-            InlineKeyboardButton('📞 ᴄᴏɴᴛᴀᴄᴛ 🐍', url="https://t.me/MS_Contact_RoBot")
+            InlineKeyboardButton('📞 ᴄᴏɴᴛᴀᴄᴛ 🐍', url="https://t.me/Text_Contect_Bot")
         ],[
             InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='start')
         ]]
@@ -1555,9 +1555,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "oye_support":
         buttons = [[
-            InlineKeyboardButton('🔮ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🔮', url="https://t.me/MS_Movvies")
+            InlineKeyboardButton('🔮ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🔮', url="https://t.me/Movie_Kii_Dukan")
         ],[
-            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥', url="https://t.me/Movvies_Request")
+            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥', url="https://t.me/MovieKiiDukan")
         ],[
             InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='start'),
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
@@ -1686,7 +1686,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("🔙 ʙᴀᴄᴋ 🔙", callback_data="start"),
-                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/MS_Contact_RoBot")
+                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/Text_Contect_Bot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
