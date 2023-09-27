@@ -16,8 +16,8 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ‣ ᴍʏ ɴᴀᴍᴇ : {}
 ‣ ᴅᴀᴛᴀʙᴀꜱᴇ : ᴄʟᴏᴜᴅ
 ‣ ꜱᴇʀᴠᴇʀ : ʙᴏꜱꜱ ʜᴏᴍᴇ
-‣ ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/MS_Contact_RoBot'>ᴍs_ʜᴀᴄᴋᴇʀ</a>
-‣ ᴜᴘᴅᴀᴛᴇs: <a href='https://t.me/MS_Movvies'>ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ</a>
+‣ ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/Text_Contect_Bot'>Contect Bot</a>
+‣ ᴜᴘᴅᴀᴛᴇs: <a href='https://t.me/Movie_Kii_Dukan'>M K D</a>
 ‣ вᴜɪʟᴅ ѕᴛᴀᴛᴜѕ: v2.7.1 [ ѕᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """
@@ -25,7 +25,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
     
 -ᴍʏ ᴘʀᴏɢʀᴀᴍɪɴɢ ɪꜱ ʜɪᴅᴅᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ ᴛᴏ ɢᴇᴛ ᴍʏ ꜱᴇᴄʀᴇᴛ ᴘʀᴏɢʀᴀᴍᴍɪɴɢ ᴄᴏᴅᴇꜱ
 
-- ᴍʏ ɢᴏᴅ <a href=https://t.me/MS_Contact_RoBot>ᴄʟɪᴄᴋ ᴍᴇ</a></b> 🙃</b>"""
+- ᴍʏ ɢᴏᴅ <a href=https://t.me/Text_Contect_Bot>OWNER</a></b> 🙃</b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -106,19 +106,19 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     OWNER_HUN = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴍꜱ_ʜᴀᴄᴋᴇʀ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @MS_Contact_Robot
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MS_Contact_Robot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝐒𝐇𝐀𝐍𝐊𝐀𝐑
+• ᴜꜱᴇʀɴᴀᴍᴇ : @Text_Contect_Bot
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/Text_Contect_Bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     OYE_SUPPORT = """<b>⍟───[ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ]───⍟
 
-𖣘 <a href='https://t.me/MS_Movvies'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲</a>
+𖣘 <a href='https://t.me/Movie_Kii_Dukan'>𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲</a>
 
-𖣘  <a href='https://t.me/Movvies_Request'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗗𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻</a>
+𖣘  <a href='https://t.me/MovieKiiDukan'>𝗠𝗼𝘃𝗶𝗲 𝗗𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻</a>
 
-𖣘  <a href='https://t.me/Movvies_Request'>𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a>
+𖣘  <a href='https://t.me/Explorimg_Cinema'>𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a>
 
-𖣘  <a href='https://t.me/Movvies_Request'>𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a></b>"""
+𖣘  <a href='https://t.me/Explorimg_Cinema'>𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a></b>"""
     
     STATUS_TXT = """<b>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs
 📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
