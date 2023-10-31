@@ -1370,15 +1370,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⭕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👑 ᴏᴡɴᴇʀ 👑', callback_data='owner_hun'),
-                    InlineKeyboardButton('🛠️ sᴜᴘᴘᴏʀᴛ 🛠️', callback_data='oye_support')
+                    InlineKeyboardButton('✦ ᴏᴡɴᴇʀ ✦', callback_data='owner_hun'),
+                    InlineKeyboardButton(' ꜱᴜᴘᴘᴏʀᴛ', callback_data='oye_support')
                 ],[
-                    InlineKeyboardButton('⁉️ ʜᴇʟᴘ ⁉️', callback_data='help'),
-                    InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ 📝', callback_data='about')
+                    InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
+                    InlineKeyboardButton('✦ ᴀʙᴏᴜᴛ ✦', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💰🤑 ᴇᴀʀɴ ᴍᴏɴᴇʏ 🤑💰', callback_data="shortlink_info")
+                    InlineKeyboardButton(' ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ', callback_data='shortlink_info')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
