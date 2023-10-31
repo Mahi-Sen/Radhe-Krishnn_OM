@@ -41,15 +41,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('⭕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👑 ᴏᴡɴᴇʀ 👑', callback_data='owner_hun'),
-                    InlineKeyboardButton('🛠️ sᴜᴘᴘᴏʀᴛ 🛠️', callback_data='oye_support')
+                    InlineKeyboardButton('✦ ᴏᴡɴᴇʀ ✦', callback_data='owner_hun'),
+                    InlineKeyboardButton(' ꜱᴜᴘᴘᴏʀᴛ', callback_data='oye_support')
                 ],[
-                    InlineKeyboardButton('⁉️ ʜᴇʟᴘ ⁉️', callback_data='help'),
-                    InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ 📝', callback_data='about')
+                    InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
+                    InlineKeyboardButton('✦ ᴀʙᴏᴜᴛ ✦', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💰🤑 ᴇᴀʀɴ ᴍᴏɴᴇʏ 🤑💰', callback_data="shortlink_info")
+                    InlineKeyboardButton(' ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ', callback_data='shortlink_info')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -89,15 +89,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('⭕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⭕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                   InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('👑 ᴏᴡɴᴇʀ 👑', callback_data='owner_hun'),
-                    InlineKeyboardButton('🛠️ sᴜᴘᴘᴏʀᴛ 🛠️', callback_data='oye_support')
+                    InlineKeyboardButton('✦ ᴏᴡɴᴇʀ ✦', callback_data='owner_hun'),
+                    InlineKeyboardButton(' ꜱᴜᴘᴘᴏʀᴛ', callback_data='oye_support')
                 ],[
-                    InlineKeyboardButton('⁉️ ʜᴇʟᴘ ⁉️', callback_data='help'),
-                    InlineKeyboardButton('📝 ᴀʙᴏᴜᴛ 📝', callback_data='about')
+                    InlineKeyboardButton(' ʜᴇʟᴘ ', callback_data='help'),
+                    InlineKeyboardButton('✦ ᴀʙᴏᴜᴛ ✦', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💰🤑 ᴇᴀʀɴ ᴍᴏɴᴇʏ 🤑💰', callback_data="shortlink_info")
+                    InlineKeyboardButton(' ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ', callback_data='shortlink_info')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -310,7 +310,7 @@ async def start(client, message):
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("✅ ᴠᴇʀɪғʏ ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/28')
+                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/+c1Lq3oe0myYzMDQ1')
                 ]]
                 await message.reply_text(
                     text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
@@ -367,7 +367,7 @@ async def start(client, message):
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("✅ ᴠᴇʀɪғʏ ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/28')
+                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/+c1Lq3oe0myYzMDQ1')
                 ]]
                 await message.reply_text(
                     text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
@@ -417,11 +417,11 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"@MS_Movvies {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
+        f_caption = f"@Movie_Kii_Dukan {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
             InlineKeyboardButton("✅ ᴠᴇʀɪғʏ ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-            InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/28')
+            InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/+c1Lq3oe0myYzMDQ1')
         ]]
         await message.reply_text(
             text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
